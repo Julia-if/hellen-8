@@ -1,4 +1,3 @@
-
 img {
   display: block;
 }
@@ -6,7 +5,7 @@ img {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
- }
+}
 h1,
 h2,
 p {
@@ -20,11 +19,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-@media  screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .container {
-   margin: 0 auto;
-   width: 320px;}
-  
+    margin: 0 auto;
+    width: 320px;
+  }
 }
 
 .contacts {
@@ -37,207 +36,211 @@ body {
 }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 480px),
-(-webkit-min-device-pixel-ratio: 2) and (min-width: 480px),
-(min-resolution: 192dpi) and (min-width: 480px),
-(min-resolution: 2dppx) and (min-width: 480px){
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px),
+  (min-resolution: 192dpi) and (min-width: 480px),
+  (min-resolution: 2dppx) and (min-width: 480px) {
   .contacts {
-   background-image: url(../images/contacts@m2x.png);
- }
+    background-image: url(../images/contacts@m2x.png);
+  }
 }
 
 .contacts__head {
- display: block;
- text-align: center;
- height: 73px;
- margin-bottom: 30px;
+  display: block;
+  text-align: center;
+  height: 73px;
+  margin-bottom: 30px;
 }
 .contacts-form {
- display: block;
- text-align: center;
+  display: block;
+  text-align: center;
 }
-.contacts__head-title{
-font-family: Montserrat;
-font-weight: 800;
-font-size: 14px;
-line-height: 1.29;
-text-align: center;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-margin-bottom: 23px;
+.contacts__head-title {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 23px;
 }
 .contacts__head-title-accent {
-font-family: Montserrat;
-font-weight: 800;
-font-size: 14px;
-line-height: 1.29;
-text-align: center;
-letter-spacing: 0.03em;
-color: #FF6B09;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ff6b09;
 }
-.contacts-form__head{
-font-family: Montserrat;
-font-weight: 600;
-font-size: 12px;
-line-height: 1.25;
-text-align: center;
-letter-spacing: 0.08em;
-color: #FFFFFF;
-margin-bottom: 30px;
+.contacts-form__head {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
-.contacts-form__head-accent{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 1.25;
-text-align: center;
-letter-spacing: 0.08em;
-color: #FF6B09;
+.contacts-form__head-accent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #ff6b09;
 }
 .contacts__field {
   display: block;
   margin-bottom: 19px;
 }
-.contacts__btn{
-font-family: Montserrat;
-background-color: #FF6B09;
-font-weight: 700;
-font-size: 12px;
-line-height: 1.25px;
-text-align: center;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-color: #FFFFFF;
-cursor: pointer;
-border: none;
-display: block;
-height: 48px;
-width: 260px;
-margin: 0 auto;
+
+.contacts__btn {
+  font-family: Montserrat;
+  background-color: #ff6b09;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  display: block;
+  height: 48px;
+  width: 260px;
+  margin: 0 auto;
 }
-.contacts__list{
+.contacts__list {
   margin-bottom: 30px;
 }
-.contacts__input{
+.contacts__input {
   width: 280px;
   height: 48px;
   padding-left: 29px;
   background-color: transparent;
   border: 1px solid #ffffff;
-  color: #FFFFFF;}
-  .contacts__input::placeholder{
-    font-family: Montserrat;
-font-weight: 600;
-font-size: 14px;
-line-height: 1.21;
-letter-spacing: 0.08em;
-color: #FFFFFF;
+  color: #ffffff;
 }
-
-@media  screen and (min-width: 768px) {
+.contacts__input::placeholder {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+}
+.contacts__input:required:focus:not(:placeholder-shown):invalid {
+  border-color: rgb(228, 50, 19);
+}
+@media screen and (min-width: 768px) {
   .container {
-   margin: 0 auto;
-   width: 688px;
+    margin: 0 auto;
+    width: 688px;
   }
   .contacts {
-   background-image: url(../images/contacts@t1x.png);
+    background-image: url(../images/contacts@t1x.png);
   }
-  .contacts__head{
-  height: 100px;
+  .contacts__head {
+    height: 100px;
   }
-  .contacts__head-title{
-font-size: 26px;
-line-height: 1.31;
-margin-bottom: 30px;
-}
-.contacts__head-title-accent {
-font-size: 26px;
-line-height: 1.31;
-}
-.contacts-form__head{
-font-size: 14px;
-line-height: 1.21;
-margin-bottom: 23px;
-}
-.contacts-form__head-accent{
-font-size: 14px;
-line-height: 1.21;
-}
-.contacts__input{
-  width: 390px;
- }
+  .contacts__head-title {
+    font-size: 26px;
+    line-height: 1.31;
+    margin-bottom: 30px;
   }
+  .contacts__head-title-accent {
+    font-size: 26px;
+    line-height: 1.31;
+  }
+  .contacts-form__head {
+    font-size: 14px;
+    line-height: 1.21;
+    margin-bottom: 23px;
+  }
+  .contacts-form__head-accent {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+  .contacts__input {
+    width: 390px;
+  }
+}
 
 @media (min-device-pixel-ratio: 2) and (min-width: 768px),
-(-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-(min-resolution: 192dpi) and (min-width: 768px),
-(min-resolution: 2dppx) and (min-width: 768px){
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
   .contacts {
-   background-image: url(../images/contacts@t2x.png);
- }
+    background-image: url(../images/contacts@t2x.png);
+  }
 }
-@media  screen and (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
   .container {
-   margin: 0 auto;
-   width: 1314px;}
-  
-.contacts {
+    margin: 0 auto;
+    width: 1314px;
+  }
+
+  .contacts {
     background-image: url(../images/contacts@1x.png);
- }
+  }
 }
 
-@media  screen and (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
   .container {
-   margin: 0 auto;
-   width: 1314px;
+    margin: 0 auto;
+    width: 1314px;
   }
   .contacts {
-   background-image: url(../images/contacts@1x.png);
+    background-image: url(../images/contacts@1x.png);
   }
-  .contacts__head{
-  height: 172px;
+  .contacts__head {
+    height: 172px;
   }
-  .contacts__head-title{
-font-size: 46px;
-line-height: 1.3;
-margin-bottom: 54px;
-}
-.contacts__head-title-accent {
-font-size: 46px;
-line-height: 1.3;
-}
-.contacts-form__head{
-font-size: 30px;
-line-height: 1.23;
-margin-bottom: 54px;
-}
-.contacts-form__head-accent{
-font-size: 30px;
-line-height: 1.23;
-}
-.contacts__input{
-  width: 478px;
-  height: 67px;
- } 
- .contacts__btn{
-font-size: 14px;
-line-height: 1.21px;
-letter-spacing: 0.14em;
-text-transform: uppercase;
-height: 68px;
-width: 354px;
-margin: 0 auto;
-}
-.contacts__list{
-  margin-bottom: 77px;
-}
-
+  .contacts__head-title {
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 54px;
   }
+  .contacts__head-title-accent {
+    font-size: 46px;
+    line-height: 1.3;
+  }
+  .contacts-form__head {
+    font-size: 30px;
+    line-height: 1.23;
+    margin-bottom: 54px;
+  }
+  .contacts-form__head-accent {
+    font-size: 30px;
+    line-height: 1.23;
+  }
+  .contacts__input {
+    width: 478px;
+    height: 67px;
+  }
+  .contacts__btn {
+    font-size: 14px;
+    line-height: 1.21px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    height: 68px;
+    width: 354px;
+    margin: 0 auto;
+  }
+  .contacts__list {
+    margin-bottom: 77px;
+  }
+}
 @media (min-device-pixel-ratio: 2) and (min-width: 1366px),
-(-webkit-min-device-pixel-ratio: 2) and (min-width: 1366px),
-(min-resolution: 192dpi) and (min-width: 1366px),
-(min-resolution: 2dppx) and (min-width: 1366px){
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1366px),
+  (min-resolution: 192dpi) and (min-width: 1366px),
+  (min-resolution: 2dppx) and (min-width: 1366px) {
   .contacts {
-   background-image: url(../images/contacts@2x.png);
- }
+    background-image: url(../images/contacts@2x.png);
+  }
 }
